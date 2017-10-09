@@ -1,0 +1,53 @@
+.topHeaderInfo {
+    text-align: right;
+    padding: 5px;
+    padding-right: 50px;
+}
+
+.anchor{
+    display: block;
+    position:absolute;
+    top:85%;
+    visibility: hidden;
+}
+
+.anchorPricing {
+    display: block;
+    position: absolute;
+    top:160%;
+    visibility: hidden;
+}
+  
+
+#services {
+    /*display: inline-flex;*/
+    /* margin-left: 65px; */
+    /* margin-right: 65px; */
+    /*width: 100%;*/
+    margin-right: auto;
+}
+
+#carouselImage {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%; 
+}
+
+#repairContainer {
+    /*margin: 10%; LEAVE THIS COMMENTED OUT*/
+    /*margin-left: 30px;*/
+    text-align: center;
+    justify-content: center;
+    /* max-width: 150px; LEAVE THIS COMMENTED OUT*/
+    border-bottom-color: 'black';
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 5px;
+}
+
+#servicesBorder {
+    border-bottom-style: solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin: 15px;
+}
