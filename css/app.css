@@ -17,8 +17,22 @@
     top:160%;
     visibility: hidden;
 }
-  
 
+#logo {
+    width: 375px; 
+    height: 90px; 
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 5px #888888;
+    margin-right: 27px;
+}
+
+#logoContainer {
+    
+}
+
+#nav-style {
+    font-size: 20px;
+}
 #services {
     /*display: inline-flex;*/
     /* margin-left: 65px; */
