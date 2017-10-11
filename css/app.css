@@ -43,7 +43,7 @@
 }
 
 #carouselImage {
-    max-height: 500px;
+    max-height: 508px;
     object-fit: cover;
     width: 100%; 
 }
@@ -72,12 +72,4 @@
     margin-left: 10px;
 }
 
-/* mouse over link */
-li:hover {
-    color: red;
-}
 
-/* selected link */
-li:active {
-    color: yellow;
-}
