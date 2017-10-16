@@ -5,7 +5,11 @@
     /*padding-right: 50px;*/
 }
 
-.anchor{
+body {
+    position: relative;
+}
+
+/*.anchor{
     display: block;
     position:absolute;
     top:85%;
@@ -31,7 +35,7 @@
     position: absolute;
     top:349%;
     visibility: hidden;
-}
+}*/
 
 #logo {
     max-width: 375px; 
@@ -48,12 +52,13 @@
 #nav-style {
     font-size: 30px;
 }
-#services {
+#services, #pricing, #about, #contact {
     /*display: inline-flex;*/
     /* margin-left: 65px; */
     /* margin-right: 65px; */
     /*width: 100%;*/
     margin-right: auto;
+    padding-top: 50px;
 }
 
 #carouselImage {

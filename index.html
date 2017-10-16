@@ -13,7 +13,7 @@
   <title>Inland NW Computer Services</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
   <div class="container"><h5 class='topHeaderInfo'>
     <i class="fa fa-phone"></i> 509-850-0464
     <i class="fa fa-clock-o"></i> Open Monday-Saturday 9-6</h5>
@@ -34,7 +34,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id ="nav-style" onclick="document.getElementById('servicesLink').scrollIntoView();">Services</a>
+          <a class="nav-link" id ="nav-style" href="#services">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id ="nav-style" href="#pricing">Pricing</a>
@@ -88,14 +88,16 @@
       </div>
     </div>
   </div>
-  <div>
-    <h1 class="display-3" id="subHeaderFormat">Services</h1>
-    <div id="servicesBorder"></div>
-  </div>
-  <div class="jumbotron jumbotron-fluid" id='services'>
+  
+  <div id="services" class="container-fluid">
+  <div class="jumbotron jumbotron-fluid" >
     <div class="container">
       <span class="anchor" id="servicesLink">
       </span>
+      <div>
+          <h1 class="display-3" id="subHeaderFormat">Services</h1>
+          <div id="servicesBorder"></div>
+        </div>
       <div class="row">
         <div class="col-xs-6 col-sm-4 col-sm-push-4 boxlogo" style="margin-top: 15px; margin-bottom: 15px;">
           <div id='repairContainer' style="">
@@ -173,36 +175,50 @@
       </div>
     </div>
   </div>
+</div> <!--END fluid-container-->
   <!--END ROW CLASS-->
   
   <!--END CONTAINER CLASS -->
-  <div>
-    <h1 class="display-3" id="subHeaderFormat">Pricing</h1>
-    <div id="servicesBorder"></div>
-  </div>
+  <div id="pricing" class="container-fluid">
+  
   <div class="jumbotron" >
-    <span class="anchorPricing" id="pricing"></span>
+      <div class="container">
+    <span class="anchorPricing" ></span>
+    <div>
+        <h1 class="display-3" id="subHeaderFormat">Pricing</h1>
+        <div id="servicesBorder"></div>
+      </div>
     <p class="lead">Test Text</p>
     <hr class="my-4">
     <p>Test Text</p>
   </div>
-
-  <div>
-    <h1 class="display-3" style="margin-left: 15px;">About Us</h1>
-    <div id="servicesBorder"></div>
   </div>
+</div>
+
+  <div id="about" class="container-fluid">
   <div class="jumbotron">
-    <span class="anchorAbout" id="about"></span>
+      <div class="container">
+    <span class="anchorAbout"></span>
+    <div>
+        <h1 class="display-3" id="subHeaderFormat">About Us</h1>
+        <div id="servicesBorder"></div>
+      </div>
     <p class="lead">Test Text</p>
     <hr class="my-4">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
   </div>
   </div>
+  </div>
 
+  <div id="contact" class="container-fluid">
+      <div class="jumbotron">
+          <div class="container">
+            <div>
   <h1 class="display-3" id="subHeaderFormat">Contact Us</h1>
   <div id="servicesBorder"></div>
+</div>
   <div style="margin-left: 15px;">
-    <span class="anchorContact" id="contact" ></span>
+    <span class="anchorContact"></span>
     <form>
       <div class="form-group">
         <label for="exampleFormControlInput1">Email address</label>
@@ -231,6 +247,9 @@
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
+  </div>
+  </div>
+</div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -245,6 +264,9 @@
         pause: 'null'
       })
     });
+  </script>
+  <script type='text/javascript'>
+  
   </script>
 </body>
 
