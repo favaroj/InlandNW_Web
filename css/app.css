@@ -15,7 +15,21 @@
 .anchorPricing {
     display: block;
     position: absolute;
-    top:160%;
+    top:230%;
+    visibility: hidden;
+}
+
+.anchorAbout {
+    display: block;
+    position: absolute;
+    top:290%;
+    visibility: hidden;
+}
+
+.anchorContact {
+    display: block;
+    position: absolute;
+    top:349%;
     visibility: hidden;
 }
 

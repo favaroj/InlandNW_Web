@@ -34,7 +34,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id ="nav-style" href="#servicesLink">Services</a>
+          <a class="nav-link" id ="nav-style" onclick="document.getElementById('servicesLink').scrollIntoView();">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id ="nav-style" href="#pricing">Pricing</a>
@@ -53,36 +53,36 @@
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
         <img class="d-block img-fluid" id='carouselImage' src="./img/2-in-1-man-woman-working.jpg" alt="First slide">
-        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.5;'>
-          <h3>Test Header 1</h3>
-          <p>Test caption.</p>
+        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.7;'>
+          <h3>Slow Computer?</h3>
+          <p><i>We can speed up your computer with ease.</i></p>
         </div>
       </div>
       <div class="carousel-item">
         <img class="d-block img-fluid" id='carouselImage' src="./img/Computer-Technician.jpg" alt="Second slide">
-        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.5;'>
+        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.7;'>
           <h3>Test Header 2</h3>
           <p>Test caption.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img class="d-block img-fluid" id='carouselImage' src="./img/elderly-gentleman-computer.jpg" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.5;'>
+        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.7;'>
           <h3>Test Header 3</h3>
           <p>Test caption.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img class="d-block img-fluid" id='carouselImage' src="./img/pc-technician.jpg" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.5;'>
-          <h3>Test Header 4</h3>
-          <p>Test caption.</p>
+        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.7;'>
+          <h3>Flexibile</h3>
+          <p>At home or offsite repair available.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img class="d-block img-fluid" id='carouselImage' src="./img/Happy-PC-user.jpg" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.5;'>
-          <h3>Test Header 5</h3>
+        <div class="carousel-caption d-none d-md-block" style='background-color:#272525; opacity: 0.7;'>
+          <h3>Hardware </h3>
           <p>Test caption.</p>
         </div>
       </div>
@@ -174,21 +174,25 @@
     </div>
   </div>
   <!--END ROW CLASS-->
-  </div>
+  
   <!--END CONTAINER CLASS -->
-  <h1 class="display-3" id="subHeaderFormat">Pricing</h1>
-  <div id="servicesBorder"></div>
-  <div class="jumbotron">
+  <div>
+    <h1 class="display-3" id="subHeaderFormat">Pricing</h1>
+    <div id="servicesBorder"></div>
+  </div>
+  <div class="jumbotron" >
     <span class="anchorPricing" id="pricing"></span>
     <p class="lead">Test Text</p>
     <hr class="my-4">
     <p>Test Text</p>
   </div>
+
+  <div>
+    <h1 class="display-3" style="margin-left: 15px;">About Us</h1>
+    <div id="servicesBorder"></div>
   </div>
-  <h1 class="display-3" style="margin-left: 15px;">About Us</h1>
-  <div id="servicesBorder"></div>
   <div class="jumbotron">
-    <span class="anchorPricing" id="about"></span>
+    <span class="anchorAbout" id="about"></span>
     <p class="lead">Test Text</p>
     <hr class="my-4">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -197,7 +201,8 @@
 
   <h1 class="display-3" id="subHeaderFormat">Contact Us</h1>
   <div id="servicesBorder"></div>
-  <div id="contact" style="margin-left: 15px;">
+  <div style="margin-left: 15px;">
+    <span class="anchorContact" id="contact" ></span>
     <form>
       <div class="form-group">
         <label for="exampleFormControlInput1">Email address</label>
