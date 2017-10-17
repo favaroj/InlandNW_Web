@@ -91,4 +91,43 @@ body {
     margin-left: 10px;
 }
 
+@media (max-width: 978px) {
+    .container {
+      padding:-50px;
+      margin:0;
+    }
+
+    body {
+      padding:0;
+    }
+
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+
+    .container-fluid, .row {
+        padding:-50px;
+      }
+      .navbar-header {
+        margin:0px;
+      }
+
+      #subHeaderBorder {
+        /*padding-top: 125px;*/
+        border-top-style: double;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin: 15px;
+        color: #08373f;
+      }
+
+      #subHeaderFormat {
+          padding-top: 125px;
+      }
+}
+
+
+
 
